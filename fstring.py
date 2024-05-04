@@ -40,3 +40,8 @@ print(txt)
 fruit = "apples"
 txt = f"I love {fruit.upper()}"
 print(txt)
+
+
+price = 59000
+txt = f"The price is {price:,} dollars"
+print(txt)
