@@ -40,6 +40,26 @@ txt = "The best things in life are free!"
 if "free" in txt:
   print("Yes, 'free' is present.")
 
+#check if not
+txt = "The best things in life are free!"
+print("expensive" not in txt)
+#use it in an if statement
+txt = "The best things in life are free!"
+if "expensive" not in txt:
+  print("No, 'expensive' is NOT present.")
 
+
+#String slicing
+#you can return a range of characters by using the slice syntax.
+
+#specify the start index and the end index, #separated by a colon, to return a part of the
+#string.  
 x = "Hello, World!"
 print(x[1])
+#slice from the start
+print(x[:5])
+#slice to the end
+print(x[2:])
+#negative indexing
+#use negative indexes to start the slice from the end of the string
+
