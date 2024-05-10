@@ -82,6 +82,28 @@ print(a.replace("H", "J"))
 a = "Hello, World!"
 print(a.split(","))
 #string concatenation
+#To concatenate, or combine, two strings you can use the + operator.
+a = "Hello"
+b = "World"
+
+c = a + b
+print(c)
+#To add a space between them, add a " ":
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
+#format strings
+#You can combine strings and numbers by using the format() method!
+age = 36
+
+
+txt = "My name is John, and I am {}"
+print(txt.format(age))
+
+
+
+
 
 
 
