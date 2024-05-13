@@ -112,6 +112,19 @@ itemno = 567
 price = 49.95
 myorder = "I want to pay {2} dollars for {0} pieces of item {1}"
 print(myorder.format(quantity, itemno, price))
+#escape characters
+#To insert characters that are illegal in a string, use an escape character.
+#An escape character is a backslash \ followed by the character you want to insert.
+#An example of an illegal character is a double quote inside a string that is surrounded by double quotes:
+txt = "We are the so-called \"Vikings\" from the north."
+print(txt)
+#You will get an error if you use double quotes inside a string that is surrounded by double quotes:
+#txt = "We are the so-called "Vikings" from the north."
+#print(txt)
+#The fix is to use the other quote character:
+txt = "We are the so-called \"Vikings\" from the north."
+print(txt)
+
 
 
 
