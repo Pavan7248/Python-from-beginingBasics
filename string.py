@@ -124,6 +124,21 @@ print(txt)
 #The fix is to use the other quote character:
 txt = "We are the so-called \"Vikings\" from the north."
 print(txt)
+#You will also get an error if you use single quotes inside a string that is surrounded by single quotes:
+#txt = 'We are the so-called 'Vikings' from the north.'
+#print(txt)
+#The fix is to use the other quote character:
+txt = 'We are the so-called "Vikings" from the north.'
+print(txt)
+#Python has a set of built-in methods that you can use on strings.
+#capitalize()	Converts the first character to upper case
+#casefold()	Converts string into lower case
+#center()	Returns a centered string
+#count()	Returns the number of times a specified value occurs in a string
+#encode()	Returns an encoded version of the string
+#endswith()	Returns true if the string ends with the specified value
+#expandtabs()	Sets the tab size of the string
+
 
 
 
