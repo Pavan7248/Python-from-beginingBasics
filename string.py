@@ -152,7 +152,23 @@ print(txt)
 #isprintable()	Returns True if all characters in the string are printable
 #isspace()	Returns True if all characters in the string are whitespaces
 #istitle()	Returns True if the string follows the rules of a title
-#isupper()	Returns True if all characters in the string are upper case
+#isupper()	Returns True if all characters in the string are upper case  
+#join()	Joins the elements of an iterable to the end of the string
+#ljust()	Returns a left justified version of the string  
+#lower()	Converts a string into lower case
+#lstrip()	Returns a left trim version of the string
+#maketrans()	Returns a translation table to be used in translations
+
+#partition()	Returns a tuple where the string is parted into three parts
+#replace()	Returns a string where a specified value is replaced with a specified value
+#rfind()	Searches the string for a specified value and returns the last position of where it was found
+#rindex()	Searches the string for a specified value and returns the last position of where it was found
+#rjust()	Returns a right justified version of the string
+#rpartition()	Returns a tuple where the string is parted into three parts
+#rsplit()	Splits the string at the specified separator, and returns a list
+
+
+
 
 
 
