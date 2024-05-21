@@ -166,6 +166,10 @@ print(txt)
 #rjust()	Returns a right justified version of the string
 #rpartition()	Returns a tuple where the string is parted into three parts
 #rsplit()	Splits the string at the specified separator, and returns a list
+#rstrip()	Returns a right trim version of the string
+#split()	Splits the string at the specified separator, and returns a list
+#splitlines()	Splits the string at line breaks and returns a list
+
 
 
 
