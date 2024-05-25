@@ -10,3 +10,4 @@ print(bool(15))
 print(bool(0))
 print(bool(None))
 # The bool() function allows you to evaluate any value, and give you True
+
